@@ -159,10 +159,13 @@ h2 {
   margin: 3rem 0;
 }
 
-.navbar {
-  max-height: 7rem;
-  background-color: #F2F2F2;
+.navbar-light {
+  background-color: #F2F2F2 !important;
   color: black;
+}
+
+.navbar-collapse {
+  background-color: #F2F2F2 !important;
 }
 
 .botonera a {
@@ -195,10 +198,6 @@ h2 {
   padding: 1rem;
 }
 
-.probar {
-  background-color: #242614;
-}
-
 .animacion {
   -webkit-animation-name: animacion;
           animation-name: animacion;
@@ -217,6 +216,17 @@ h2 {
 .carousel-caption {
   max-width: 30rem;
   margin: 9rem auto;
+}
+
+.comoFunciona {
+  color: #485922;
+  text-align: center;
+  padding: 0.6em;
+  background-color: #DFDFDF;
+}
+
+.comoFunciona p {
+  color: black;
 }
 
 .instrucciones {
@@ -239,17 +249,6 @@ h2 {
 
 .reparto img {
   width: 11rem;
-}
-
-.comoFunciona {
-  color: #485922;
-  text-align: center;
-  padding: 0.6em;
-  background-color: #DFDFDF;
-}
-
-.comoFunciona p {
-  color: black;
 }
 
 .animacionComoFunciona {
@@ -329,10 +328,23 @@ button:hover {
   color: #F2F2F2;
   background-color: #242614;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #linkWpp img {
   width: 400px;
+  margin-left: 5rem;
 }
 
 #linkWpp img:hover {
@@ -412,6 +424,179 @@ button:hover {
 
 .iconoFooterContainer {
   margin-bottom: 4rem;
+}
+
+@media (max-width: 540px) {
+  .elegir {
+    font-size: 3rem;
+    background-color: #485922;
+    min-height: 15rem;
+    padding: 1rem;
+  }
+  .opcion {
+    font-size: 3rem;
+    background-color: #F2F2F2;
+    color: #485922;
+    padding: 1rem;
+  }
+  .carousel-caption {
+    display: none;
+  }
+  .comoFunciona {
+    color: #485922;
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+    padding: 0.6em;
+    background-color: #DFDFDF;
+  }
+  .comoFunciona p {
+    color: black;
+  }
+  .instrucciones {
+    height: 40rem;
+    padding: 1.5em 3rem;
+  }
+  .instrucciones img {
+    width: 6rem;
+  }
+  .instrucciones p {
+    text-align: center;
+    padding: 0.5em;
+  }
+  .cocinar img {
+    width: 6rem;
+  }
+  .reparto img {
+    width: 6;
+  }
+  .animacionComoFunciona {
+    -webkit-animation-name: animacionComoFunciona;
+            animation-name: animacionComoFunciona;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-animation-duration: 1.3s;
+            animation-duration: 1.3s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+  }
+  strong {
+    font-weight: 700;
+  }
+  .elegirnos {
+    height: 45rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+  .miniBanner {
+    display: none;
+  }
+  .porQue {
+    color: #F2F2F2;
+    background-color: #485922;
+    padding: 2em;
+  }
+  .porQuetexto {
+    margin: 2rem;
+    margin-bottom: 3.5rem;
+  }
+  .grande {
+    font-size: 3rem;
+    color: #485922;
+    background-color: #F2F2F2;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+    text-align: center;
+    padding: 1rem;
+  }
+  .boton2 {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    margin: auto;
+    color: #485922;
+    background-color: #F2F2F2;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+    color: #242614;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #242614;
+  }
+  button:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  #linkWpp {
+    height: 20rem;
+    color: #F2F2F2;
+    background-color: #242614;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #linkWpp img {
+    width: 150px;
+    margin: 1rem auto;
+  }
+  #linkWpp img:hover {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  .habla {
+    width: 40rem;
+    line-height: 1;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  .cocinamosEn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: no-wrap;
+        flex-wrap: no-wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 10rem;
+    margin: 5rem auto;
+    line-height: 1;
+  }
+  .cocinamosEn img {
+    width: 8rem;
+  }
+  .cocinamosEn p {
+    text-align: center;
+  }
 }
 
 .nuestrosPlanes {
