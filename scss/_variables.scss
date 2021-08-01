@@ -1,0 +1,18 @@
+$fontPrincipal: 'Roboto', sans-serif;
+$fontSecundaria: 'Raleway', sans-serif;
+
+$weightPrincipal:('thin':100, 'regular':300, 'bold':700);
+$weightSecundaria:('thin':100, 'regular':400, 'bold':900);
+$sizes:('xsmall':0.5rem, 'small':1.3rem, 'medium':1.5rem, 'large':2.5rem, 'xlarge':3.5rem, 'xxl':4.2rem);
+
+$colorVerde: #485922 ;
+$colorOscuro:#242614;
+$colorBlanco:#F2F2F2 ;
+$colorGris: #DFDFDF; 
+
+$breakpoints: (
+    sm : 540px,
+    md : 768px,
+    lg : 1024px
+)
+

@@ -1,0 +1,57 @@
+@each $k, $v in $weightPrincipal{
+    .weightP-#{$k}{
+        font-family: $fontPrincipal;
+        font-weight:$v;
+    }
+}
+
+@each $k, $v in $weightSecundaria{
+    .weightS-#{$k}{
+        font-family: $fontSecundaria;
+        font-weight:$v;
+    }
+}
+
+@each $k, $v in $sizes{
+    .size-#{$k}{
+        font-size:$v
+    }
+}
+
+@mixin media-up ($breakpoint){
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)){
+        @content 
+    }
+}
+@keyframes animacion {
+    0% {
+        transform: translateX(-1000px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+}
+@keyframes animacionIcono {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateX(-30px) rotate(6deg);
+    }
+    30% {
+      transform: translateX(15px) rotate(-6deg);
+    }
+    45% {
+      transform: translateX(-15px) rotate(3.6deg);
+    }
+    60% {
+      transform: translateX(9px) rotate(-2.4deg);
+    }
+    75% {
+      transform: translateX(-6px) rotate(1.2deg);
+    }
+  }

@@ -1,0 +1,40 @@
+form{
+	width: 30rem;
+	margin:0rem
+}
+textarea{
+	flex-basis: 100px
+}
+
+
+label{
+	margin:1rem 0rem;
+	padding:0rem
+}
+.contacto{
+	background-color:$colorGris;
+	max-width: 60rem;
+	margin:auto
+}
+.visitanos{
+	text-align: center;
+	margin-top:4rem;
+	margin-bottom:2rem;
+
+
+	p{
+		padding:0rem;
+		margin:0rem}
+
+}
+.boton3{
+	border-radius: 5px;
+	border: none;
+	padding: 0.5rem;
+    margin: auto;
+    color: $colorOscuro;
+    background-color: $colorBlanco;
+    text-decoration: none;
+	margin:2rem auto}
+
+	.boton3:hover{transform:scale(1.2)}

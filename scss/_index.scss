@@ -1,0 +1,226 @@
+body{
+    background-color:$colorBlanco;
+}
+.h1-Index{
+    text-align:center;
+    margin-bottom: 2rem;
+    color:black !important;
+    }
+
+h2{
+    background-color: $colorOscuro;
+    color:$colorBlanco;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    width: 45%;
+    margin:3rem 0}
+
+.navbar{
+    max-height: 7rem;
+    background-color: $colorBlanco;
+    color:black
+}
+
+.botonera a{
+    color: $colorOscuro;
+    text-decoration: none;
+    margin: 2rem;
+}
+
+.loguito img{
+    width: 7rem;
+    margin-left:20px
+}
+.carrito_user img{
+    width:2.5rem;
+    margin-right: 1em;
+}
+.elegir{
+	margin:12rem;
+    background-color: $colorVerde;
+    min-height: 15rem;
+    padding:1rem;
+}
+.opcion{
+    margin:12rem;
+    background-color: $colorBlanco;
+    color:$colorVerde;
+    padding:1rem;
+
+
+}
+.probar{
+    background-color:$colorOscuro
+}
+.animacion{
+	animation-name: animacion;
+	animation-timing-function: ease-in;
+  	animation-duration: 1s;
+   	animation-delay: 0s
+}
+.carousel-inner{
+    margin-bottom: 5rem;
+}
+.carousel-caption{
+    max-width: 30rem;
+    margin:9rem auto;
+}
+
+.instrucciones{	
+	height: 22rem;
+	padding:1.5em 3rem;
+
+    img{
+        width:8rem
+    }
+    p{
+        text-align:center;
+        padding:0.5em
+    }
+}
+
+.cocinar img{
+    width:11rem
+}
+.reparto img{
+    width: 11rem;
+}
+.comoFunciona{
+    color: $colorVerde;
+    text-align: center;
+    padding:0.6em;
+    background-color: $colorGris;
+    p{
+        color:black
+    }
+}
+.animacionComoFunciona{
+	animation-name: animacionComoFunciona;
+	animation-timing-function: ease-in;
+  	animation-duration: 1.3s;
+   	animation-delay: 2s
+}
+
+strong{font-weight:700}
+
+.elegirnos{
+	height: 35rem;
+	margin-bottom: 5rem;
+	margin-top: 5rem
+}
+.miniBanner{
+	background-image: url(../media/fondo3.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:0px;
+}
+.porQue{
+    color:$colorBlanco;
+    background-color:$colorVerde;
+	padding: 2em;
+}
+.porQuetexto{
+    margin:2rem;
+    margin-bottom: 3.5rem;
+}
+.grande{
+    color:$colorVerde;
+    background-color:$colorBlanco;
+    margin-bottom: 1.5rem;
+}
+.boton2{
+	font-size:1.5rem;
+	border-radius: 5px;
+	border: none;
+	padding: 0.5rem;
+    margin: auto;
+    color: $colorVerde;
+    background-color: $colorBlanco;
+    text-decoration: none;
+    
+   
+}
+a{
+   text-decoration:none;
+   color:$colorOscuro
+}
+a:hover{
+    text-decoration: none;
+    color:$colorOscuro
+}
+
+button:hover{transform: scale(1.2);}
+#linkWpp{
+	height: 20rem;
+    color:$colorBlanco;
+    background-color: $colorOscuro;
+    text-decoration: none;
+    
+    img{
+        width:400px
+    }
+    img:hover{transform: scale(1.15)}
+}
+.habla{
+    width: 10px;
+    line-height: 4rem;
+}
+.cocinamosEn{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+	align-content: center;
+	justify-content: center;
+    align-items: center;
+    padding: 1rem;
+	font-size:1.5rem;
+    width:20rem;
+    height:10rem;
+    margin:5rem auto;
+    line-height:1;
+
+    img{
+	width: 8rem}
+p{
+    text-align: center;
+}
+
+}
+
+.wppFlotante{
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        
+        i{
+        color:$colorOscuro;
+        font-size:4rem}
+    }
+    
+
+#footer{
+	text-align:center;
+    color:$colorOscuro;
+    margin:5rem;
+    padding:3rem;
+    p{
+        margin:auto
+    }
+}
+
+.infoFooter{
+    margin-top:2rem
+}
+.iconoFooter{
+font-size: 3rem;
+margin:1rem
+}
+.iconoFooterContainer{
+    margin-bottom: 4rem;
+}
+
+
+    
