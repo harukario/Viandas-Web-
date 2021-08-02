@@ -59,9 +59,125 @@ h3{
 
 .logosEmpresas{
     margin:8rem;
-
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-content:center;
+    align-items:center;
     img{
         max-width:20rem;
         max-height: 8rem;
+    }
+}
+@media (max-width: 540px){
+    #empresas{
+        width: 80%;
+        background-color: $colorGris;
+        display:grid;
+        grid-template-areas: "soluciones";
+    }
+    
+    .resolver{
+        width:28rem;
+        font-size:3.5rem;
+        grid-area: soluciones;
+        padding: 40px;
+        border-left: none;
+        line-height:0.8;
+    
+        .pDestacado{
+            color:$colorVerde;
+    
+        }
+    }
+
+    .soluciones{
+        width:30rem !important;
+        margin-top:20px;
+        margin-bottom: 20px;
+        font-size: 1.4rem;
+        line-height: 0.5 !important;
+    }
+
+
+
+    .logosEmpresas{
+        p{
+            text-align:center
+        }
+    }
+
+    .contenedorLogosEmpresas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+            img{
+                margin:1rem }
+    }
+}
+
+
+@media (max-width: 768px){
+    #empresas{
+        max-height: 40rem;
+        width: 100%;
+        display: grid;
+        grid-template-areas: "img soluciones";
+        grid-template-columns: 50% 50%;
+        margin: 5rem auto;
+        background-color: $colorGris;
+    }
+    
+    .imgEmpresa{
+        grid-area: img;
+        background-image: url('../media/empresa.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .resolver{
+        width:25rem;
+        font-size:3rem;
+        grid-area: soluciones;
+        padding: 40px;
+        border-left: none;
+       line-height:none
+    
+        .pDestacado{
+            color:$colorVerde;
+    
+        }
+    
+    }
+    h3{
+        font-size:3.8rem
+    }
+    
+    .soluciones{
+        color:black;
+        margin-top:20px;
+        margin-bottom: 20px;
+        line-height:0.5 !important
+        
+    }
+  
+
+    .logosEmpresas{
+        p{
+            text-align:center
+        }
+    }
+
+    .contenedorLogosEmpresas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+       
+            img{
+                margin:1rem }
     }
 }

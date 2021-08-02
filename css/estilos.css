@@ -172,6 +172,7 @@ strong {
   margin: 0px; }
 
 .porQue {
+  max-height: 50rem;
   color: #F2F2F2;
   background-color: #485922;
   padding: 2em; }
@@ -213,7 +214,7 @@ button:hover {
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center; }
   #linkWpp img {
     width: 400px;
@@ -223,7 +224,8 @@ button:hover {
 
 .habla {
   width: 10px;
-  line-height: 4rem; }
+  line-height: 4rem;
+  margin-left: 5rem; }
 
 .cocinamosEn {
   display: flex;
@@ -269,124 +271,6 @@ button:hover {
 .iconoFooterContainer {
   margin-bottom: 4rem; }
 
-@media (max-width: 540px) {
-  .elegir {
-    font-size: 3rem;
-    background-color: #485922;
-    min-height: 15rem;
-    padding: 1rem; }
-  .opcion {
-    font-size: 3rem;
-    background-color: #F2F2F2;
-    color: #485922;
-    padding: 1rem; }
-  .carousel-caption {
-    display: none; }
-  .comoFunciona {
-    color: #485922;
-    font-size: 3rem;
-    line-height: 1;
-    text-align: center;
-    padding: 0.6em;
-    background-color: #DFDFDF; }
-    .comoFunciona p {
-      color: black; }
-  .instrucciones {
-    height: 40rem;
-    padding: 1.5em 3rem; }
-    .instrucciones img {
-      width: 6rem; }
-    .instrucciones p {
-      text-align: center;
-      padding: 0.5em; }
-  .cocinar img {
-    width: 6rem; }
-  .reparto img {
-    width: 6; }
-  .animacionComoFunciona {
-    animation-name: animacionComoFunciona;
-    animation-timing-function: ease-in;
-    animation-duration: 1.3s;
-    animation-delay: 2s; }
-  strong {
-    font-weight: 700; }
-  .elegirnos {
-    height: 45rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem; }
-  .miniBanner {
-    display: none; }
-  .porQue {
-    color: #F2F2F2;
-    background-color: #485922;
-    padding: 2em; }
-  .porQuetexto {
-    margin: 2rem;
-    margin-bottom: 3.5rem; }
-  .grande {
-    font-size: 3rem;
-    color: #485922;
-    background-color: #F2F2F2;
-    margin-bottom: 1.5rem;
-    line-height: 1;
-    text-align: center;
-    padding: 1rem; }
-  .boton2 {
-    font-size: 1.5rem;
-    border-radius: 5px;
-    border: none;
-    padding: 0.5rem;
-    margin: auto;
-    color: #485922;
-    background-color: #F2F2F2;
-    text-decoration: none; }
-  a {
-    text-decoration: none;
-    color: #242614; }
-  a:hover {
-    text-decoration: none;
-    color: #242614; }
-  button:hover {
-    transform: scale(1.2); }
-  #linkWpp {
-    height: 20rem;
-    color: #F2F2F2;
-    background-color: #242614;
-    text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around; }
-    #linkWpp img {
-      width: 150px;
-      margin: 1rem auto; }
-    #linkWpp img:hover {
-      transform: scale(1.15); }
-  .habla {
-    width: 40rem;
-    line-height: 1;
-    font-size: 3rem;
-    text-align: center;
-    padding: 1rem; }
-  .cocinamosEn {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: no-wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    font-size: 1.5rem;
-    width: 20rem;
-    height: 10rem;
-    margin: 5rem auto;
-    line-height: 1; }
-    .cocinamosEn img {
-      width: 8rem; }
-    .cocinamosEn p {
-      text-align: center; } }
-
 .nuestrosPlanes {
   background-color: #DFDFDF;
   width: 80%;
@@ -402,7 +286,8 @@ h2 {
   width: 45%; }
 
 .card {
-  margin: 2rem; }
+  margin: 2rem;
+  background-color: #F2F2F2; }
 
 .tarjetas {
   margin: 2rem; }
@@ -523,7 +408,281 @@ h3 {
     color: #F2F2F2; }
 
 .logosEmpresas {
-  margin: 8rem; }
+  margin: 8rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center; }
   .logosEmpresas img {
     max-width: 20rem;
     max-height: 8rem; }
+
+@media (max-width: 540px) {
+  #empresas {
+    width: 80%;
+    background-color: #DFDFDF;
+    display: grid;
+    grid-template-areas: "soluciones"; }
+  .resolver {
+    width: 28rem;
+    font-size: 3.5rem;
+    grid-area: soluciones;
+    padding: 40px;
+    border-left: none;
+    line-height: 0.8; }
+    .resolver .pDestacado {
+      color: #485922; }
+  .soluciones {
+    width: 30rem !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    line-height: 0.5 !important; }
+  .logosEmpresas p {
+    text-align: center; }
+  .contenedorLogosEmpresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contenedorLogosEmpresas img {
+      margin: 1rem; } }
+
+@media (max-width: 768px) {
+  #empresas {
+    max-height: 40rem;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "img soluciones";
+    grid-template-columns: 50% 50%;
+    margin: 5rem auto;
+    background-color: #DFDFDF; }
+  .imgEmpresa {
+    grid-area: img;
+    background-image: url("../media/empresa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+  .resolver {
+    width: 25rem;
+    font-size: 3rem;
+    grid-area: soluciones;
+    padding: 40px;
+    border-left: none; }
+    .resolver line-height:none
+.pDestacado {
+      color: #485922; }
+  h3 {
+    font-size: 3.8rem; }
+  .soluciones {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 0.5 !important; }
+  .logosEmpresas p {
+    text-align: center; }
+  .contenedorLogosEmpresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contenedorLogosEmpresas img {
+      margin: 1rem; } }
+
+@media all and (max-width: 540px) {
+  h2 {
+    background-color: #242614;
+    width: 100% !important;
+    color: #F2F2F2;
+    padding: 10px;
+    font-size: 3rem !important;
+    text-align: center;
+    margin: 3rem 0; }
+  .carousel-caption {
+    display: none; }
+  .comoFunciona {
+    color: #485922;
+    text-align: center;
+    padding: 0.6em;
+    background-color: #DFDFDF; }
+    .comoFunciona p {
+      color: black; }
+  .containerFluid {
+    min-height: 50rem; }
+  .instrucciones {
+    height: 40rem;
+    padding: 1.5em 3rem;
+    background-color: #DFDFDF; }
+    .instrucciones img {
+      width: 8rem; }
+    .instrucciones p {
+      text-align: center;
+      padding: 0.5em; }
+  .cocinar img {
+    width: 11rem; }
+  .reparto img {
+    width: 11rem; }
+  .elegirnos {
+    height: 45rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem; }
+  .miniBanner {
+    display: none; }
+  .grande {
+    font-size: 3rem;
+    color: #485922;
+    background-color: #F2F2F2;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+    text-align: center;
+    padding: 1rem; }
+  #linkWpp {
+    height: 20rem;
+    color: #F2F2F2;
+    background-color: #242614;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+    #linkWpp img {
+      width: 150px;
+      margin: 1rem auto; }
+  .habla {
+    width: 40rem;
+    line-height: 1;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem; }
+  .cocinamosEn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 10rem;
+    margin: 5rem auto;
+    line-height: 1; }
+    .cocinamosEn img {
+      width: 8rem; }
+    .cocinamosEn p {
+      text-align: center; } }
+
+@media all and (max-width: 768px) {
+  h2 {
+    background-color: #242614;
+    width: 100% !important;
+    color: #F2F2F2;
+    padding: 10px;
+    font-size: 3rem !important;
+    text-align: center;
+    margin: 3rem 0; }
+  .elegir {
+    font-size: 2rem !important;
+    margin: 1rem;
+    background-color: #485922;
+    min-height: 10rem;
+    padding: 1rem; }
+  .opcion {
+    font-size: 2rem !important;
+    margin: 1rem;
+    background-color: #F2F2F2;
+    color: #485922;
+    padding: 1rem; }
+  .carousel-caption {
+    max-width: 20rem;
+    margin: auto; }
+  .comoFuncionaContainer {
+    min-height: 35rem;
+    max-height: 50rem;
+    background-color: #DFDFDF; }
+  .comoFunciona {
+    color: #485922;
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+    padding: 0.6em;
+    background-color: #DFDFDF; }
+    .comoFunciona p {
+      color: black; }
+    .comoFunciona ul {
+      margin: 2rem; }
+    .comoFunciona li {
+      width: 100%;
+      color: black;
+      text-align: start;
+      font-size: 1.3rem;
+      padding: 0.5rem; }
+  .instrucciones {
+    padding: 1.5em 3rem; }
+    .instrucciones img {
+      width: 6.1rem; }
+    .instrucciones p {
+      text-align: center;
+      padding: 0.5em; }
+  .cocinar img {
+    width: 8rem; }
+  .reparto img {
+    width: 8rem; }
+  .elegirnos {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    min-height: 40rem !important;
+    max-height: 50rem !important; }
+  .miniBanner {
+    background-image: url(../media/fondo3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px; }
+  .porQue {
+    color: #F2F2F2;
+    background-color: #485922; }
+  .porQuetexto {
+    margin: 0 !important;
+    font-size: 1.3rem; }
+  .grande {
+    color: #485922;
+    background-color: #F2F2F2;
+    margin-bottom: 1.5rem;
+    font-size: 3rem; }
+  #linkWpp {
+    height: 20rem;
+    color: #F2F2F2;
+    background-color: #242614;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+    #linkWpp img {
+      width: 150px;
+      margin: 1rem auto; }
+  .habla {
+    width: 40rem;
+    line-height: 1;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem; }
+  .cocinamosEn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 10rem;
+    margin: 5rem auto;
+    line-height: 1; }
+    .cocinamosEn img {
+      width: 8rem; }
+    .cocinamosEn p {
+      text-align: center; } }

@@ -1,0 +1,264 @@
+@media all and (max-width: 540px){
+
+    h2{
+        background-color: $colorOscuro;
+        width:100% !important;
+        color:$colorBlanco;
+        padding: 10px;
+        font-size: 3rem !important;
+        text-align: center;
+        margin:3rem 0}
+   
+        .carousel-caption{
+        display: none}
+
+        .comoFunciona{
+            color: $colorVerde;
+            text-align: center;
+            padding:0.6em;
+            background-color: $colorGris;
+            p{
+                color:black
+            }
+        }
+        .containerFluid{
+            min-height: 50rem;
+        }
+        .instrucciones{	
+            height: 40rem;
+            padding:1.5em 3rem;
+            background-color: $colorGris;
+        
+            img{
+                width:8rem
+            }
+            p{
+                text-align:center;
+                padding:0.5em
+            }
+        }
+        
+        .cocinar img{
+            width:11rem
+        }
+        .reparto img{
+            width: 11rem;
+        }
+        
+       
+     
+        
+        .elegirnos{
+            height: 45rem;
+            margin-bottom: 5rem;
+            margin-top: 5rem
+        }
+        .miniBanner{
+            display:none
+        }
+       
+        .grande{
+            font-size: 3rem;
+            color:$colorVerde;
+            background-color:$colorBlanco;
+            margin-bottom: 1.5rem;
+            line-height: 1;
+            text-align: center;
+            padding:1rem
+        }
+       
+        #linkWpp{
+            height: 20rem;
+            color:$colorBlanco;
+            background-color: $colorOscuro;
+            text-decoration: none;
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            
+            img{
+                width:150px;
+                margin:1rem auto
+            }
+        }
+        .habla{
+            width:40rem;
+            line-height: 1;
+            font-size:3rem;
+            text-align:center;
+            padding:1rem
+        }
+        .cocinamosEn{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: no-wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            font-size:1.5rem;
+            width:20rem;
+            height:10rem;
+            margin:5rem auto;
+            line-height:1;
+        
+            img{
+            width: 8rem}
+            p{
+            text-align: center;
+            }  
+    }
+}
+
+@media all and(max-width: 768px){
+    h2{
+        background-color: $colorOscuro;
+        width:100% !important;
+        color:$colorBlanco;
+        padding: 10px;
+        font-size: 3rem !important;
+        text-align: center;
+        margin:3rem 0}
+    
+        .elegir{
+            font-size: 2rem !important;
+            margin:1rem;
+            background-color: $colorVerde;
+            min-height: 10rem;
+            padding:1rem;
+        }
+        .opcion{
+            font-size: 2rem !important;
+            margin:1rem;
+            background-color: $colorBlanco;
+            color:$colorVerde;
+            padding:1rem;
+        }
+        .carousel-caption{
+            max-width: 20rem;
+            margin: auto}
+
+        .comoFuncionaContainer{
+        min-height: 35rem;
+         max-height: 50rem;
+         background-color: $colorGris;
+        }
+
+        .comoFunciona{
+            color: $colorVerde;
+            font-size: 3rem;
+            line-height:1;
+            text-align: center;
+            padding:0.6em;
+            background-color: $colorGris;
+            p{
+                color:black
+            }
+            ul{
+                margin:2rem
+            }
+            li{
+                width:100%;
+                color:black;
+                text-align: start;
+                font-size: 1.3rem;
+                padding:0.5rem
+
+            }
+        }
+        
+        .instrucciones{	
+            padding:1.5em 3rem;
+        
+            img{
+                width:6.1rem
+            }
+            p{
+                text-align:center;
+                padding:0.5em
+            }
+        }
+        
+        .cocinar img{
+            width:8rem
+        }
+        .reparto img{
+            width: 8rem;
+        }
+        
+        .elegirnos{
+            margin-bottom: 5rem;
+            margin-top: 5rem;
+            min-height:40rem !important;
+            max-height: 50rem !important;
+        }
+        .miniBanner{
+            background-image: url(../media/fondo3.jpg);
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            margin:0px;
+        }
+        .porQue{
+            color:$colorBlanco;
+            background-color:$colorVerde;
+    
+        }
+        .porQuetexto{
+            margin:0 !important;
+            font-size: 1.3rem;
+        }
+        .grande{
+            color:$colorVerde;
+            background-color:$colorBlanco;
+            margin-bottom: 1.5rem;
+            font-size: 3rem;
+        }
+       
+        #linkWpp{
+            height: 20rem;
+            color:$colorBlanco;
+            background-color: $colorOscuro;
+            text-decoration: none;
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            
+            img{
+                width:150px;
+                margin:1rem auto
+               
+            }
+        }
+        .habla{
+            width:40rem;
+            line-height: 1;
+            font-size:3rem;
+            text-align:center;
+            padding:1rem
+        }
+        .cocinamosEn{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: no-wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            font-size:1.5rem;
+            width:20rem;
+            height:10rem;
+            margin:5rem auto;
+            line-height:1;
+        
+            img{
+            width: 8rem}
+            p{
+            text-align: center
+            }
+        }
+}
